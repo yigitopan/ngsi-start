@@ -1,14 +1,22 @@
 <script setup>
-import { ref } from "vue"
-const isVisible = ref(true);
-
-const counter = ref(0);
-
-const addOne = (add) => {
-  counter.value = counter.value + add;
-}
+import HeaderVue from './components/Header.vue';
+import FooterVue from './components/Footer.vue'
 </script>
 
 <template>
-<div class="p-2.5 text-white text-center text-sm font-semibold bg-gray-800 tracking-widest uppercase">NGSI Corporate Website Example</div>
+<main class="flex flex-col">
+  <HeaderVue :title="'Arif sadsadsa'" />
+  <ul>
+    <li>
+      <router-link to="/">Home</router-link>
+    </li>
+    <li> <router-link to="/contact">Contact</router-link></li>
+    <li><router-link to="/about">About</router-link>
+     </li>
+  </ul>
+  <div class="flex-1">
+    <router-view></router-view>
+  </div>
+  <FooterVue />
+</main>
 </template>
