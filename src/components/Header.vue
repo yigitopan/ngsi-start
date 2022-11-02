@@ -1,6 +1,10 @@
 <script setup>
 import { defineProps } from 'vue';
-defineProps(['title'])
+const title = inject('title')
+
+const name = ref();
+const emits = defineEmits('emit-name');
+
 </script>
 
 <template>
