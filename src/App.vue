@@ -1,7 +1,7 @@
 <script setup>
 import HeaderVue from './components/Header.vue';
 import FooterVue from './components/Footer.vue'
-import { provide, ref } from 'vue';
+import { provide,ref } from 'vue';
 const title = ref('test')
 provide('title', title)
 </script>

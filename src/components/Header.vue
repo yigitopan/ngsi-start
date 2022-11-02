@@ -1,5 +1,5 @@
 <script setup>
-import { defineProps, inject, ref } from 'vue';
+import { defineProps,inject,ref } from 'vue';
 const title = inject('title')
 
 const name = ref();
