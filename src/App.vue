@@ -1,6 +1,7 @@
 <script setup>
 import HeaderVue from './components/Header.vue';
 import FooterVue from './components/Footer.vue'
+import AboveFooterVue from './components/AboveFooter.vue'
 import { provide,ref } from 'vue';
 const title = ref('test')
 provide('title', title)
@@ -21,6 +22,7 @@ provide('title', title)
   <div class="flex-1">
     <router-view></router-view>
   </div>
+  <AboveFooterVue/>
   <FooterVue />
 </main>
 </template>
