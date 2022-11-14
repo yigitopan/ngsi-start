@@ -5,5 +5,5 @@ const route = useRoute()
 </script>
 
 <template>
-    {{route.params.serviceName}}
+    <p>{{route.params.serviceName}} secilen</p>
 </template>
