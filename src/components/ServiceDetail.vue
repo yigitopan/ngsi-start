@@ -8,7 +8,8 @@ const router = useRouter()
 const serviceImgs = ref(null)
 
 const selectFromServiceList = (selected) => {
-    router.push(`/services/${selected}`)
+    router.push(`/services/${selected}`);
+
     window.scrollTo({
         left: 0,
         top: serviceImgs.value.offsetTop,
@@ -30,18 +31,18 @@ const selectFromServiceList = (selected) => {
 <template>
     <div class="container mx-auto">
         <div class="grid grid-cols-12">
-            <div class="col-span-12 py-8 sm:py-0 sm:col-span-3">
-                <ul class="text-center font-semibold sm:text-left ease-out">
-                    <li @click="selectFromServiceList('malerarbeiten')" class="hover:bg-mainColor p-4 bg-gray-200 mb-1 cursor-pointer">Malerarbeiten</li>
-                    <li @click="selectFromServiceList('trockenbau')" class="hover:bg-mainColor p-4 bg-gray-200 mb-1 cursor-pointer">Trockenbau</li>
-                    <li @click="selectFromServiceList('stuckateur')" class="hover:bg-mainColor p-4 bg-gray-200 bg-s mb-1 cursor-pointer">Stuckateur Arbeiten</li>
-                    <li @click="selectFromServiceList('esstisch')" class="hover:bg-mainColor p-4 bg-gray-200 mb-1 cursor-pointer">Esstisch</li>
-                    <li @click="selectFromServiceList('fliesen')" class="hover:bg-mainColor p-4 bg-gray-200 mb-1 cursor-pointer">Fliesen</li>
-                    <li @click="selectFromServiceList('aussenanlagen')" class="hover:bg-mainColor p-4 bg-gray-200 cursor-pointer">Außenanlagen</li>
+            <div class="col-span-12 py-8 sm:py-0 sm:col-span-3">    
+                <ul class="text-center font-semibold sm:text-left animate-fadeInLeft">
+                    <li @click="selectFromServiceList('malerarbeiten')" class="hover:bg-gray-400 text-black p-4 bg-mainColor mb-1 cursor-pointer">Malerarbeiten</li>
+                    <li @click="selectFromServiceList('trockenbau')" class="hover:bg-gray-400 p-4 text-black bg-mainColor mb-1 cursor-pointer">Trockenbau</li>
+                    <li @click="selectFromServiceList('stuckateur')" class="hover:bg-gray-400 p-4 text-black bg-mainColor bg-s mb-1 cursor-pointer">Stuckateur Arbeiten</li>
+                    <li @click="selectFromServiceList('esstisch')" class="hover:bg-gray-400 p-4 text-black bg-mainColor mb-1 cursor-pointer">Esstisch</li>
+                    <li @click="selectFromServiceList('fliesen')" class="hover:bg-gray-400 p-4 text-black bg-mainColor mb-1 cursor-pointer">Fliesen</li>
+                    <li @click="selectFromServiceList('aussenanlagen')" class="hover:bg-gray-400 text-black p-4 bg-mainColor cursor-pointer">Außenanlagen</li>
                 </ul>
             </div>
 
-            <div ref="serviceImgs" class="col-span-12 sm:col-span-9">
+            <div ref="serviceImgs" class="col-span-12 sm:col-span-9 animate-fadeInRight">
                 <div v-if="route.params.serviceName=='fliesen'" class="flex mb-5 sm:px-8 gap-4 flex-row w-full">
                     <div class="bg-serviceDemo1 bg-no-repeat bg-center bg-cover w-1/2 h-64"></div>
                     <div class="bg-serviceDemo2 bg-no-repeat bg-center bg-cover w-1/2 h-64"></div>
