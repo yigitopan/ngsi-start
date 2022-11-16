@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'mainColor':'#F4BC16'
+        'mainColor':'#b98423'
       },
       backgroundImage: {
         'serviceDemo1': "url('https://quanticalabs.com/Renovate/Template/images/samples/390x260/image_04.jpg')",
