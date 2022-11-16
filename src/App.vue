@@ -7,7 +7,7 @@ import { useRoute } from 'vue-router';
 const title = ref('test')
 provide('title', title)
 
-const route = useRoute()
+const route = useRoute();
 </script>
 
 <template>
