@@ -1,7 +1,7 @@
 <script setup>
 import { defineProps,inject,ref } from 'vue';
+import MobileHeaderVue from './MobileHeader.vue';
 const title = inject('title')
-
 const name = ref();
 const emits = defineEmits('emit-name');
 
@@ -14,7 +14,8 @@ const emits = defineEmits('emit-name');
 </style>
 
 <template>
-  <div class="bg-white bauwerk-nav sticky top-0 w-full flex justify-between">
+  <MobileHeaderVue class="block sm:hidden"></MobileHeaderVue>
+  <div class="hidden sm:flex bg-white bauwerk-nav sticky top-0 w-full justify-between">
    <div>
       <img class="-mr-1 ml-2 h-24" src="../assets/firmlogo-removebg-preview.png">
    </div>

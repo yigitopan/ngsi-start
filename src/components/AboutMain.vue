@@ -40,7 +40,7 @@
 </style>
 
 <template>
-  <div class="container grid grid-cols-1 sm:grid-cols-2 mx-auto">
+  <div class="sm:pt-8 pt-0 container grid grid-cols-1 sm:grid-cols-2 mx-auto">
     <div class="col-span-1">
       <div class="img-wrapper overflow-hidden flex justify-center">
         <img class="rounded-full" src="https://quanticalabs.com/Renovate/Template/images/samples/480x480/image_10.jpg" alt="" style="display: block;"/>

@@ -7,7 +7,7 @@
                 <div class="h-6 w-6 mr-4 ml-2 bg-white transition duration-500 rounded-full" :class="{'bg-black': (contentVisible === index._id)}"></div>    {{ index.title }}
             </button>
 
-              <p class="pt-4 text-sm" v-if='contentVisible === index._id'>{{ index.item }}</p>
+              <p class="pt-4 text-sm text-white" v-if='contentVisible === index._id'>{{ index.item }}</p>
 
           </li>
       </ul>
