@@ -23,7 +23,7 @@ const serviceHeroClick = (selected) => {
 
 
 <template>
-    <div class="container pb-8 mx-auto animate-fadeInLeft">
+    <div class="container py-24 mx-auto animate-fadeInLeft">
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-y-10">
             <div>
                 <div @click="serviceHeroClick('malerarbeiten')"  class="cursor-pointer transition ease-in-out hover:contrast-50"><img class="w-full" src="https://quanticalabs.com/Renovate/Template/images/samples/390x260/image_01.jpg" alt="" style="display: block;"/></div>

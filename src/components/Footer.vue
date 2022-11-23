@@ -5,7 +5,8 @@
 </style>
 
 <template>
-  <footer class="bg-gradient-to-l to-mainColor from-gray-500 overflow-hidden">
+ <footer class="bg-gradient-to-l to-mainColor from-gray-500 overflow-hidden">
+    <div class="container mx-auto">
       <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
           <div>
               <h2 class="mb-6 footer-title font-semibold text-white uppercase dark:text-gray-400">About Us</h2>
@@ -69,5 +70,6 @@
               </ul>
           </div>
       </div>
-      </footer>
+    </div>
+   </footer>
   </template>

@@ -26,15 +26,15 @@
 
 <template>
   <div class="flex flex-wrap justify-evenly about-why text-white mt-14 py-40">
-    <div class="mb-36 sm:mb-0 flex flex-col items-center w-full sm:w-1/3 animate-fadeInLeft">
+    <div class="mb-36 sm:mb-0 flex flex-col items-center w-full sm:w-1/4 animate-fadeInLeft">
         <div class="rounded-full border w-40 h-40 border-solid border-white relative">
-            <img class="w-min p-10 grayscale invert" src="../assets/location.svg" alt="">
+            <img class="w-min p-7 grayscale invert" src="../assets/experience.svg" alt="">
         </div>
         <h2 class="text-center py-6 font-thin text-6xl about-nummer relative">15</h2>
         <p class="text-center font-thin text-medium text-3xl pt-5">Jahre Erfahrung</p>
     </div>
 
-    <div class="mb-36 sm:mb-0 flex flex-col items-center w-full sm:w-1/3">
+    <div class="mb-36 sm:mb-0 flex flex-col items-center w-full sm:w-1/4">
         <div class="rounded-full border w-40 h-40 border-solid border-white relative">
             <img class="w-min p-10 grayscale invert" src="../assets/mail.svg" alt="">
         </div>
@@ -42,12 +42,20 @@
         <p class="text-center font-thin text-3xl pt-5">Abgeschlossene Projekte</p>
     </div>
 
-    <div class="mb-36 sm:mb-0 flex flex-col items-center w-full sm:w-1/3 animate-fadeInRight">
+    <div class="mb-36 sm:mb-0 flex flex-col items-center w-full sm:w-1/4 animate-fadeInRight">
         <div class="rounded-full border w-40 h-40 border-solid border-white relative">
             <img class="w-full p-10 grayscale invert" src="../assets/telefon.svg" alt="">
         </div>
         <h2 class="text-center py-6 font-thin text-6xl about-nummer relative">5</h2>
         <p class="text-center font-thin text-3xl pt-5">Kompetente Mitarbeiter</p>
+    </div>
+
+    <div class="mb-36 sm:mb-0 flex flex-col items-center w-full sm:w-1/4 animate-fadeInRight">
+        <div class="rounded-full border w-40 h-40 border-solid border-white relative">
+            <img class="w-full p-10 grayscale invert" src="../assets/location.svg" alt="">
+        </div>
+        <h2 class="text-center py-6 font-thin text-6xl about-nummer relative">2</h2>
+        <p class="text-center font-thin text-3xl pt-5">Niederlassung</p>
     </div>
   </div>
   
