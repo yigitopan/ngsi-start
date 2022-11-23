@@ -30,7 +30,7 @@ const selectFromServiceList = (selected) => {
 </style>
 <template>
     <div class="pt-0 pb-3 sm:pt-5 sm:pb-5 container mx-auto">
-        <div class="grid grid-cols-12">
+        <div class="grid grid-cols-12 py-6">
             <div class="col-span-12 py-0 sm:py-0 sm:col-span-3">    
                 <ul class="text-center font-semibold sm:text-left animate-fadeInLeft">
                     <li @click="selectFromServiceList('malerarbeiten')" class="hover:bg-gray-400 text-white p-4 bg-mainColor mb-1 cursor-pointer">Malerarbeiten</li>

@@ -9,7 +9,7 @@ import { onBeforeUnmount, onMounted } from "vue"
 const scrolled = ref(false)
 
 const changeHeaderStyleOnScroll = () => {
-    scrolled.value = (window.scrollY>100);
+    scrolled.value = (window.scrollY>40);
     console.log(scrolled.value)
 }
 

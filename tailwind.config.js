@@ -12,7 +12,7 @@ module.exports = {
       },
       backgroundImage: {
         'serviceDemo1': "url('https://quanticalabs.com/Renovate/Template/images/samples/390x260/image_04.jpg')",
-        'serviceDemo2': "url('https://quanticalabs.com/Renovate/Template/images/samples/390x260/image_05.jpg')",
+        'serviceDemo2': "url('https://quanticalabs.com/Renovate/Template/images/samples/390x260/image_05.jpg')"
       },
       keyframes: {
         fIL: {

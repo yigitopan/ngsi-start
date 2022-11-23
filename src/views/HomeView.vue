@@ -1,5 +1,12 @@
+<script setup>
+import MainHeroVue from '../components/MainHero.vue';
+import MainServicesVue from '../components/MainServices.vue';
+import MainLatest from '../components/MainLatest.vue';
+</script>
+
+
 <template>
-  <div>
-    home page content
-  </div>
+  <MainHeroVue></MainHeroVue>
+  <MainServicesVue></MainServicesVue>
+  <MainLatest></MainLatest>
 </template>
