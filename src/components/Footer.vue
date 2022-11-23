@@ -1,13 +1,20 @@
+<style>
+.footer-title{
+    text-shadow: 1px 1px 2px black;
+}
+</style>
+
 <template>
-  <footer class="bg-gradient-to-b from-mainColor to-gray-600 overflow-hidden">
+  <footer class="bg-gradient-to-l from-mainColor to-gray-500 overflow-hidden">
       <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
           <div>
-              <h2 class="mb-6 font-semibold text-white uppercase dark:text-gray-400">About Us</h2>
+              <h2 class="mb-6 footer-title font-semibold text-white uppercase dark:text-gray-400">About Us</h2>
               <p class = "text-white textuppercase dark:text-gray-400">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
           </div>
+
           <div>
-              <h2 class="mb-6 font-semibold text-white uppercase dark:text-gray-400">Social Media</h2>
-                <div class="flex mb-6 space-x-6 sm:justify-even sm:mt-0">
+              <h2 class="mb-6 font-semibold footer-title text-white uppercase dark:text-gray-400">Social Media</h2>
+                <div class="flex mb-6 space-x-3 sm:justify-even sm:mt-0">
               <a href="#" class="text-white hover:text-gray-900 dark:hover:text-white">
                   <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
                   <span class="sr-only">Facebook page</span>
@@ -30,49 +37,34 @@
               </a>
           </div>
           </div>
+          
           <div>
-              <h2 class="mb-6 font-semibold text-white uppercase dark:text-gray-400">Our Services</h2>
-              <ul class="list-disc text-white dark:text-gray-400">
-                <li class="text-yellow-500 mb-4">
-                  <div class=" text-white dark:text-gray-400">
-                    <a href="#" class="text-sm text-sm hover:underline">MALERARBEITEN</a>
-    </div>
-                      
-                  </li>
-                  <li class="text-yellow-500 mb-4">
-                    <div class=" text-white dark:text-gray-400">
+              <h2 class="mb-6 font-semibold footer-title text-white uppercase dark:text-gray-400">Our Services</h2>
+              <ul class="list-disc list-inside  text-white dark:text-gray-400">
+                <li class="text-white mb-4">
+                    <a href="#" class="text-sm hover:underline">MALERARBEITEN</a>
+                </li>
+
+                  <li class="text-white mb-4">
                       <a href="#" class="text-sm hover:underline">TROCKENBAU</a>
-    </div>
-                     
                   </li>
-                  <li class="text-yellow-500 mb-4">
-                    <div class="text-white dark:text-gray-400">
-                      <a href="#" class="text-sm hover:underline">STUCKATEUR ARBEITEN</a>
-    </div>
-                      
+                  <li class="text-white mb-4">
+                      <a href="#" class="text-sm hover:underline">STUCKATEUR</a>
                   </li>
               </ul>
           </div>
+          
           <div>
               <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-gray-400 opacity-0">Our Services</h2>
               <ul class="list-disc text-white dark:text-gray-400">
-                <li class="text-yellow-500 mb-4">
-                  <div class=" text-white dark:text-gray-400">
+                <li class="text-white mb-4">
                     <a href="#" class="text-sm hover:underline">ESSTISCH</a>
-    </div>
-                      
-                  </li>
-                  <li class="text-yellow-500 mb-4">
-                    <div class=" text-white dark:text-gray-400">
+                 </li>
+                  <li class="text-white mb-4">
                       <a href="#" class="text-sm hover:underline">FLIEBEN</a>
-    </div>
-                     
                   </li>
-                  <li class="text-yellow-500 mb-4">
-                    <div class=" text-white dark:text-gray-400">
+                  <li class="text-white mb-4">
                       <a href="#" class="text-sm hover:underline">AUSSENANLAGEN</a>
-    </div>
-                      
                   </li>
               </ul>
           </div>

@@ -3,7 +3,7 @@
       <ul>
           <li v-for="index in list" :key="index._id" class="py-4 px-2 my-2 bg-mainColor">
 
-            <button class="text-white flex items-center" @click="contentVisible === index._id ? contentVisible = false : contentVisible = index._id">
+            <button class="text-white flex items-center text-left" @click="contentVisible === index._id ? contentVisible = false : contentVisible = index._id">
                 <div class="h-6 w-6 mr-4 ml-2 bg-white transition duration-500 rounded-full" :class="{'bg-black': (contentVisible === index._id)}"></div>    {{ index.title }}
             </button>
 

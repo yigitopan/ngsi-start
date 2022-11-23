@@ -9,7 +9,7 @@
 
 </style>
 <template>
-    <div class="bg-mainColor py-4 aboveFooter border-b-[1px] border-white">
+    <div class="bg-gradient-to-l from-mainColor to-gray-500 py-4 aboveFooter border-b-[1px] border-white">
         <div class="container mx-auto grid grid-cols-1 sm:grid-cols-3 content-center justify-items-center">
 
                 <div class="my-3 sm:my-0 flex items-center flex-row flex-wrap">

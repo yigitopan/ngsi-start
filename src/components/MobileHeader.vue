@@ -4,7 +4,8 @@
         <nav
           class="
             container
-            px-6
+            pl-6
+            pr-2
             py-8
             mx-auto
             md:flex md:justify-between md:items-center
@@ -13,7 +14,7 @@
           <div class="flex items-center justify-between">
             
             <!-- Mobile menu button -->
-            <div @click="showMenu = !showMenu" class="flex md:hidden">
+            <div @click="showMenu = !showMenu" class="flex md:hidden animate-fadeInLeft">
               <button
                 type="button"
                 class="
@@ -30,7 +31,7 @@
                 </svg>
               </button>
             </div>
-            <img class="-mr-1 ml-2 h-24" src="../assets/firmlogo-removebg-preview.png">
+            <img class="animate-fadeInRight mr-1 ml-2 h-24" src="../assets/firmlogo-removebg-preview.png">
 
           </div>
   
@@ -51,16 +52,16 @@
             "
           >
             <li class="font-bold text-gray-800 hover:text-mainColor cursor-pointer">
-                <router-link to="/">Home</router-link>
+                <router-link to="/" @click="showMenu = !showMenu">Home</router-link>
             </li>
             <li class="font-bold text-gray-800 hover:text-mainColor cursor-pointer">
-                <router-link to="/about">About</router-link>
+                <router-link to="/about" @click="showMenu = !showMenu">About</router-link>
             </li>
             <li class="font-bold text-gray-800 hover:text-mainColor cursor-pointer">
-                <router-link to="/services">Services</router-link>
+                <router-link to="/services" @click="showMenu = !showMenu">Services</router-link>
             </li>
             <li class="font-bold text-gray-800 hover:text-mainColor cursor-pointer">
-                <router-link to="/contact">Contact</router-link>
+                <router-link to="/contact" @click="showMenu = !showMenu">Contact</router-link>
             </li>
           </ul>
         </nav>

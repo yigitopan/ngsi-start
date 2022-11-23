@@ -41,13 +41,13 @@
 
 <template>
   <div class="sm:pt-8 pt-0 container grid grid-cols-1 sm:grid-cols-2 mx-auto">
-    <div class="col-span-1">
+    <div class="col-span-1 animate-fadeInLeft">
       <div class="img-wrapper overflow-hidden flex justify-center">
         <img class="rounded-full" src="https://quanticalabs.com/Renovate/Template/images/samples/480x480/image_10.jpg" alt="" style="display: block;"/>
       </div>
     </div>
 
-    <div class="px-5 sm:px-0 sm:pl-10 xl:pl-0 col-span-1">
+    <div class="px-5 sm:px-0 sm:pl-10 xl:pl-0 col-span-1  text-sm sm:text-base animate-fadeInRight">
       <h1 class="text-4xl font-bold about-title text-center sm:text-left pt-6 sm:pt-0">ÜBER UNS</h1>
       <p class="mt-4 xl:pr-10 font-thin">
         Founded by Kevin Smith back in 2000, Renovate has established itself as one of the greatest and prestigious providers of construction focused interior renovation services and building. We provide a professional renovation and installation services with a real focus on customer satisfaction. Our construction Services is a multi-task company specializing in the following core areas:
