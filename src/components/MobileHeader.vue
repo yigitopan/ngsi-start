@@ -1,5 +1,11 @@
+<style>
+.mobile-header-comp {
+  z-index: 50;
+}
+</style>
+
 <template>
-    <div>
+    <div class="mobile-header-comp">
       <div class="bg-white">
         <nav
           class="
