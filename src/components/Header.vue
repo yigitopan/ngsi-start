@@ -19,7 +19,7 @@ const props = defineProps(['isScrolled'])
   <div :class="{'bg-white':!isScrolled, 'bg-mainColor bg-opacity-60':isScrolled}" class="transition backdrop-blur-md ease-in-out duration-500 hidden sm:block  bauwerk-nav sticky top-0 w-full  header-desk">
     <div  class="container flex mx-auto justify-between">
     <div class="animate-fadeInLeft">
-        <img :class="{'brightness-0 invert': isScrolled}" class="mr-1 ml-2 h-24" src="../assets/firmlogo-removebg-preview.png">
+        <img :class="{'brightness-0 invert': isScrolled}" class="mr-1 ml-2 h-24" src="../assets/logo.png">
     </div>
     <div class="flex items-center uppercase animate-fadeInRight transition ease-in-out duration-300">
   <router-link :class="{'text-gray-700 hover:text-mainColor':!isScrolled, 'text-white hover:text-gray-700':isScrolled}" class="px-4 py-2  text-md font-bold hover:font-semibold" to="/">Home</router-link>

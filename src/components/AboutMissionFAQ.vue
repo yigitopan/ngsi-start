@@ -7,7 +7,7 @@ import AboutAccordionListVue from './AboutAccordionList.vue';
 .faq-title::after {
     display: block;
     content: "";
-    background: #F4BC16;
+    background: #213140;
     width: 30px;
     height: 2px;
     margin-top: 15px;

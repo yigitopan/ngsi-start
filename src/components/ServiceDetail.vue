@@ -22,7 +22,7 @@ const selectFromServiceList = (selected) => {
 .service-subtitle:after {
     display: block;
     content: "";
-    background: #F4BC16;
+    background: #213140;
     width: 40px;
     height: 2px;
     margin-top: 13px;

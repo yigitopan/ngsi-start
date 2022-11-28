@@ -4,7 +4,7 @@
 
 <style>
 .about-why{
-	background-image: url('https://quanticalabs.com/Renovate/Template/images/samples/1920x1200/image_02.jpg');
+	background-image: url('../assets/why-bg.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center 0;
@@ -17,7 +17,7 @@
     left: 50%;
     top:100%;
     transform: translate(-50%,0%);    
-    background: #F4BC16;
+    background: #213140;
     width: 40px;
     height: 2px;
     margin-top: 0px;

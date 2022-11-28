@@ -8,11 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'mainColor':'#b98423'
+        'mainColor':'#213140'
       },
       backgroundImage: {
-        'serviceDemo1': "url('https://quanticalabs.com/Renovate/Template/images/samples/390x260/image_04.jpg')",
-        'serviceDemo2': "url('https://quanticalabs.com/Renovate/Template/images/samples/390x260/image_05.jpg')"
+        'serviceDemo1': "url('../assets/s4.jpg')",
+        'serviceDemo2': "url('../assets/s3.jpg')"
       },
       keyframes: {
         fIL: {

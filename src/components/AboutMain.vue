@@ -18,7 +18,7 @@
     display: block;
     content: "";
     text-align: center;
-    background: #F4BC16;
+    background: #213140;
     width: 100px;
     height: 2px;
     margin-top: 23px;
@@ -30,7 +30,7 @@
 
 .about-list li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #F4BC16; /* Change the color */
+  color: #213140; /* Change the color */
   font-size: 15px;
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
@@ -43,7 +43,7 @@
   <div class="sm:pt-16 pt-0 container grid grid-cols-1 sm:grid-cols-2 mx-auto">
     <div class="col-span-1 animate-fadeInLeft">
       <div class="img-wrapper overflow-hidden flex justify-center">
-        <img class="w-3/4 sm:w-fit rounded-full" src="https://quanticalabs.com/Renovate/Template/images/samples/480x480/image_10.jpg" alt="" style="display: block;"/>
+        <img class="w-3/4 sm:w-fit rounded-full" src="../assets/about.jpg" alt="" style="display: block;"/>
       </div>
     </div>
 

@@ -8,7 +8,7 @@
   }
 
   .bg-heroBg {
-    background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgba(153, 108, 3, 0.8)), url('https://www.bauwerk-parkett.com/_Resources/Persistent/01dbb06c6ff4b9442d8fcedf35dfe3a1f8d550ff/Bauwerk_Avorio_Essen12683_A-1920x1280.jpg');
+    background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgb(33, 49, 64, 0.8)), url('../assets/hero.jpg');
   }
 
 </style>
