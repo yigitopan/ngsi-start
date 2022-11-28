@@ -37,7 +37,7 @@
                 </svg>
               </button>
             </div>
-            <img class="animate-fadeInRight mr-1 ml-2 h-24" src="../assets/firmlogo-removebg-preview.png">
+            <img class="animate-fadeInRight mr-1 ml-2 h-24" src="../assets/logo.png">
 
           </div>
   
