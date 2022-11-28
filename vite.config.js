@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:'/ngsi-start/',
   plugins: [vue()],
   resolve: {
     alias: {
