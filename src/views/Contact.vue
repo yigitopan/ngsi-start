@@ -26,7 +26,7 @@ const userData = vue.reactive({
   <div class="relative w-full z-10">
     <div class="absolute overflow-hidden w-full iframe-wrapper">
       <iframe
-        src="https://www.google.com/maps/d/embed?mid=1nUpg6rN6Ico2e3fkJ-LzKN4O4rJGJKI&ehbc=2E312F"
+        src="https://www.google.com/maps/d/embed?mid=1nUpg6rN6Ico2e3fkJ-LzKN4O4rJGJKI&ehbc=2E312F&z=15"
         width="100%"
         height="350px"
       ></iframe>
@@ -34,7 +34,7 @@ const userData = vue.reactive({
   </div>
   <div class="mt-80 flex w-full min-h-screen justify-center items-center">
     <div
-      class="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-yellow-700 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white"
+      class="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-blue-400 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white"
     >
       <div class="flex flex-col space-y-8 justify-between">
         <div>
